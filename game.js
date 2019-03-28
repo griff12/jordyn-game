@@ -25,7 +25,8 @@ $(".btn").on("click", function() {
     checkAnswer(userAnswers.length - 1);
 
   } else {
-
+    gameStarted = !gameStarted;
+    nextSequence();
   }
 
 });
